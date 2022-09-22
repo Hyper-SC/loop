@@ -1,0 +1,122 @@
+* {
+  font-family: "Roboto";
+  text-decoration: none;
+}
+
+body {
+  background-color: #4677f6;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.container {
+  width: 455px;
+  height: 700px;
+  background-color: #fff;
+  margin-left: 350px;
+  position: relative;
+}
+
+header {
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.menu:hover {
+  opacity: 1;
+}
+
+.google {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.search {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.search:hover {
+  opacity: 1;
+}
+
+.map {
+  width: 480px;
+  height: 160px;
+  border-radius: 5px;
+  position: absolute;
+  margin-left: -10px;
+}
+
+.link {
+  background-color: #4677f6;
+  padding: 2px 25px;
+  position: absolute;
+  top: 180px;
+  left: 250px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.link:hover {
+  background-color: #4065c4;
+}
+
+.title-location {
+  color: white;
+  font-weight: 500;
+}
+
+.h3-hamburg {
+  position: absolute;
+  z-index: 2;
+  margin-top: 200px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+
+.direction-boxes {
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.h3-direction {
+  font-size: 15px;
+  line-height: 0;
+}
+
+.second-direction {
+  margin-top: 320px;
+}
+
+.third-direction {
+  margin-top: 390px;
+}
+
+.street {
+  margin-top: 480px;
+  height: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 425px;
+  margin-left: 30px;
+}
+
+.last-direction {
+  top: 380px;
+}/*# sourceMappingURL=main.css.map */

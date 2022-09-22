@@ -1,0 +1,29 @@
+header {
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.menu:hover {
+  opacity: 2;
+}
+
+.google {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.search {
+  opacity: 0.5;
+}
+
+.search:hover {
+  opacity: 1;
+}
